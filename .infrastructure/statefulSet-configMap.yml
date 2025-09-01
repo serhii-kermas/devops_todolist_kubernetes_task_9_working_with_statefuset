@@ -6,7 +6,3 @@ metadata:
 data:
   init.sql: |
     CREATE DATABASE IF NOT EXISTS tododb;
-    CREATE USER IF NOT EXISTS 'todoapp_user'@'%' IDENTIFIED BY 'my-secret-user_pw';
-    GRANT ALL PRIVILEGES ON tododb.* TO 'todoapp_user'@'%';
-    USE tododb; 
-    );
